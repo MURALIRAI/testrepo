@@ -37,7 +37,8 @@
                <testFailureIgnore>true</testFailureIgnore>
                <outputFolder>${project.build.directory}/surefire-reports</outputFolder>
                <junitReport>true</junitReport>
-               <printReport>false</printReport>     
+               <exportwAll>true</exportwAll>
+               <printReport>true</printReport>     
             </configuration>
          </plugin>
     <plugin>
@@ -45,6 +46,10 @@
         <artifactId>maven-surefire-plugin</artifactId>
         <configuration>
           <testFailureIgnore>true</testFailureIgnore>
+          outputDirectory>target/site/soapui</outputDirectory>
+          <reportsDirectories>
+          <reportsDirectories>target/soapui/</reportsDirectories>
+          </reportsDirectories>
         </configuration>
     </plugin>   
   </plugins>
