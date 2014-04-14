@@ -32,7 +32,7 @@
                </execution>
             </executions>                       
             <configuration>
-               <projectFile>/Users/ctsuser1/Documents/SMProjects/GCRMWS-SM-Validation/soapui/gcrmws/GCRMWS-RESTServices-soapui-project.xml</projectFile>
+               <projectFile>/Users/Shared/Jenkins/Home/workspace/GCRMWS/GCRMWS-RESTServices-soapui-project.xml</projectFile>
                <host>localhost</host>
                <testFailureIgnore>true</testFailureIgnore>
                <outputFolder>${project.build.directory}/surefire-reports</outputFolder>
