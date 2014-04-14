@@ -46,7 +46,7 @@
         <artifactId>maven-surefire-plugin</artifactId>
         <configuration>
           <testFailureIgnore>true</testFailureIgnore>
-          outputDirectory>target/site/soapui</outputDirectory>
+          <outputDirectory>target/site/soapui</outputDirectory>
           <reportsDirectories>
           <reportsDirectories>target/soapui/</reportsDirectories>
           </reportsDirectories>
